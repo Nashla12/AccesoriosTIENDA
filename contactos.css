@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3dbc3; /* Color claro de fondo */
+    color: #333; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 60px auto;
+    background-color: #eaccad; /* Color suave de fondo */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2em;
+    color: #b03648; /* Color burdeos */
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Información de contacto */
+.contact-info p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-info strong {
+    color: #b03648; /* Color burdeos */
+}
+
+/* Redes sociales */
+ul.sociales {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+ul.sociales li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul.sociales a {
+    color: #b03648; /* Color burdeos */
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+ul.sociales a:hover {
+    color: #c66271; /* Color rosa claro */
+}
+
+ul.sociales i {
+    margin-right: 8px; /* Espacio entre ícono y texto */
+}
+
+/* Estilos del formulario */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #b03648; /* Color burdeos */
+}
+
+textarea.form-control {
+    resize: none; /* Evitar que se redimensione */
+}
+
+.btn-enviar {
+    width: 100%;
+    background-color: #c66271; /* Color rosa claro */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #d4b89e; /* Beige más claro */
+}
+
+/* Espaciado */
+.container {
+    line-height: 1.5;
+}
+
+form {
+    margin-top: 20px;
+}
