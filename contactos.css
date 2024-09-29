@@ -131,3 +131,21 @@ textarea.form-control {
 form {
     margin-top: 20px;
 }
+
+footer {
+    background-color: var(--color1);
+    color: var(--color4);
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+footer p:last-of-type {
+    color: var(--color5);
+}
