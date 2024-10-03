@@ -12,6 +12,8 @@ body {
     color: #f3dbc3;
     padding: 0 20px;
 }
+
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -28,6 +30,7 @@ nav ul li a {
     color: #f3dbc3;
     text-decoration: none;
     font-weight: bold;
+    text-transform: uppercase; 
 }
 header {
     text-align: center;

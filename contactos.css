@@ -7,6 +7,72 @@ body {
     line-height: 1.6;
 }
 
+
+/* Estilos del header */
+header {
+    background-color: #c66271; /* Fondo rosa oscuro */
+    padding: 20px 0; /* Espaciado vertical */
+    text-align: center; /* Centra el contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    position: relative;
+    z-index: 10; /* Para que se muestre por encima del contenido */
+}
+
+header h1 {
+    font-size: 50px;
+    color: #f3dbc3; /* Color beige claro */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    margin: 0;
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+header h1:hover {
+    color: #fff; /* Cambia a blanco al pasar el ratón */
+    transition: color 0.3s ease; /* Efecto suave de transición */
+}
+
+/* Estilos de navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f3dbc3; /* Color beige */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase; /* Letras mayúsculas */
+}
+
+nav ul li a:hover {
+    color: #fff; /* Cambia a blanco al hacer hover */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+/* Adaptabilidad para pantallas pequeñas */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 32px; /* Reduce el tamaño del texto en pantallas pequeñas */
+    }
+
+    nav ul {
+        flex-direction: column; /* El menú se apila verticalmente en pantallas pequeñas */
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Mayor espaciado entre los elementos del menú */
+    }
+}
+
 .container {
     width: 80%;
     max-width: 700px;
